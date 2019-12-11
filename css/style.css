@@ -1,0 +1,240 @@
+@font-face {
+  font-family: 'Gotham Pro Regular';
+  src: url("GothamPro.eot");
+  src: url("GothamPro.eot?#iefix") format("embedded-opentype"), url("GothamPro.woff") format("woff"), url("GothamPro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #0A0B0D;
+  font-family: 'Gotham Pro Regular';
+}
+
+.wrapper {
+  position: relative;
+  width: 1280px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #1C1C1E;
+  padding: 72px 44px 43px;
+}
+
+.wrapper__title {
+  color: #fff;
+  margin: 0 0 12px 20px;
+  font-size: 32px;
+  line-height: 31px;
+}
+
+.wrapper__slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.wrapper__slider__item {
+  position: relative;
+  height: 357px;
+  width: 357px !important;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  margin: 20px;
+}
+
+.wrapper__slider__item__title {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  font-size: 24px;
+  width: 100%;
+  line-height: 130%;
+  height: 140px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.85)), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%);
+  border-radius: 8px;
+}
+
+.wrapper__slider__item__title__text {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+}
+
+.wrapper__slider__item.item-1 {
+  background: url("/img/Fortnite.png") center;
+  background-size: 635px 358px;
+  background-position: 35% 75%;
+}
+
+.wrapper__slider__item.item-2 {
+  background: url("/img/lol.png");
+  background-size: 605px 357px;
+  background-position: 70% 75%;
+}
+
+.wrapper__slider__item.item-3 {
+  background: url("/img/pubg.png");
+  background-size: 704px 482px;
+  background-position: 35% 75%;
+}
+
+.wrapper__slider__item.item-4 {
+  background: url("/img/gta5.png");
+  background-size: 592px 370px;
+  background-position: 35% 75%;
+}
+
+.wrapper__slider__item.item-5 {
+  background: url("/img/overwatch.png");
+  background-size: 636px 358px;
+  background-position: 54% 75%;
+}
+
+.wrapper__slider__item.item-6 {
+  background: url("/img/apex.png");
+  background-size: 680px 382px;
+  background-position: 50% 75%;
+}
+
+.wrapper__navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper__navigation__dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper__navigation__btn-back:hover .btn-back {
+  stroke: #F48E06;
+}
+
+.wrapper__navigation__btn-forward:hover .btn-forward {
+  stroke: #F48E06;
+}
+
+@media screen and (max-width: 1279px) {
+  .wrapper {
+    width: 1108px;
+  }
+  .wrapper__slider__item {
+    width: 300px !important;
+    height: 300px;
+  }
+  .wrapper__slider__item.item-1 {
+    background-size: 556px 313px;
+    background-position: 35% 75%;
+  }
+  .wrapper__slider__item.item-2 {
+    background-size: 521px 307px;
+    background-position: 50% 75%;
+  }
+  .wrapper__slider__item.item-3 {
+    background-size: 582px 388px;
+    background-position: 37% 52%;
+  }
+  .wrapper__slider__item.item-4 {
+    background-size: 482px 302px;
+    background-position: 35% 75%;
+  }
+  .wrapper__slider__item.item-5 {
+    background-size: 636px 358px;
+    background-position: 57% 36%;
+  }
+  .wrapper__slider__item.item-6 {
+    background-size: 680px 382px;
+    background-position: 50% 75%;
+  }
+}
+
+@media screen and (max-width: 1117px) {
+  .wrapper {
+    padding: 72px 5px 43px;
+  }
+  .wrapper__title {
+    margin-left: 56px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 768px;
+    padding-bottom: 77px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper {
+    width: 680px;
+  }
+  .wrapper__title {
+    margin: 0 0 12px 20px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .wrapper {
+    width: 100vw;
+  }
+  .wrapper__title {
+    margin: 0 0 12px 20px;
+  }
+  .wrapper__navigation__btn-back, .wrapper__navigation__btn-forward {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .wrapper__slider__item {
+    width: 327px !important;
+    height: 327px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .wrapper__slider__item.item-1 {
+    background-size: 635px 358px;
+    background-position: 35% 45%;
+  }
+  .wrapper__slider__item.item-2 {
+    background-size: 605px 357px;
+    background-position: 50% 16%;
+  }
+  .wrapper__slider__item.item-4 {
+    background-size: 592px 370px;
+    background-position: 33% 23%;
+  }
+  .wrapper__slider__navigation {
+    margin-top: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
