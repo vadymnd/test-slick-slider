@@ -143,7 +143,7 @@ body {
   stroke: #F48E06;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1297px) {
   .wrapper {
     width: 1108px;
   }
@@ -179,6 +179,7 @@ body {
 
 @media screen and (max-width: 1117px) {
   .wrapper {
+    width: 100vw;
     padding: 72px 5px 43px;
   }
   .wrapper__title {
