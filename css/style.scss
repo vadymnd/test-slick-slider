@@ -107,7 +107,7 @@
         }
     }
     
-    @media screen and (max-width: 1279px) {
+    @media screen and (max-width: 1297px) {
         .wrapper {
             width: 1108px;
             &__slider {
@@ -145,6 +145,7 @@
     
     @media screen and (max-width: 1117px) {
         .wrapper {
+            width: 100vw;
             padding: 72px 5px 43px;
             &__title {
                 margin-left: 56px;
