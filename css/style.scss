@@ -94,6 +94,10 @@
                 align-items: center;
                 justify-content: center;
             }
+            &__btn-back,
+            &__btn-forward {
+               cursor: pointer;   
+            }
             &__btn-back:hover {
                 .btn-back {
                     stroke: #F48E06;
