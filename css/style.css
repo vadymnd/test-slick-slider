@@ -135,6 +135,10 @@ body {
           justify-content: center;
 }
 
+.wrapper__navigation__btn-back, .wrapper__navigation__btn-forward {
+  cursor: pointer;
+}
+
 .wrapper__navigation__btn-back:hover .btn-back {
   stroke: #F48E06;
 }
