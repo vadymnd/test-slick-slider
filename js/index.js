@@ -9,7 +9,7 @@
       nextArrow: $('.wrapper__navigation__btn-forward'),
       appendDots: $('.wrapper__navigation__dots'),
       responsive: [{
-              breakpoint: 1024,
+              breakpoint: 1025,
               settings: {
                   rows: 2,
                   slidesPerRow: 2,
